@@ -1,0 +1,1 @@
+$env:GIT_AUTHOR_DATE = (Get-Date -Hour 20 -Minute 0 -Second 0).ToString("yyyy-MM-ddTHH:mm:ss")  ; $env:GIT_COMMITTER_DATE = $env:GIT_AUTHOR_DATE  ; git commit --amend --no-edit 
