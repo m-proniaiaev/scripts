@@ -1,1 +1,1 @@
-$env:GIT_AUTHOR_DATE = (Get-Date -Hour 20 -Minute 0 -Second 0).ToString("yyyy-MM-ddTHH:mm:ss")  ; $env:GIT_COMMITTER_DATE = $env:GIT_AUTHOR_DATE  ; git commit --amend --no-edit ; git log -1 --pretty=fuller
+$env:GIT_AUTHOR_DATE = (Get-Date -Hour 20 -Minute 0 -Second 0).ToString("yyyy-MM-ddTHH:mm:ss")  ; $env:GIT_COMMITTER_DATE = $env:GIT_AUTHOR_DATE  ; git commit --amend --no-edit --date=$env:GIT_AUTHOR_DATE ; git log -1 --pretty=fuller
